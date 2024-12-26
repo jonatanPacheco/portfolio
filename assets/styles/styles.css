@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Cinzel:wght@400..900&family=Great+Vibes&family=Mitr:wght@200;300;400;500;600;700&family=Press+Start+2P&display=swap");
+@import url("./cabecalho.css");
+@import url("./banner.css");
+@import url("./descricao.css");
+@import url("./card.css");
+@import url("./projetos.css");
+@import url("./contatos.css");
+@import url("./rodape.css");
+@import url("./styles-sobre__mim/sobre-mim.css");
+
+body {
+  box-sizing: border-box;
+  background-image: url("../imagens/bg-matrix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: fill 0 linear-gradient(#0003, #000);
+  padding: 3rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  .titulo {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .logo {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    span {
+      font-family: "Press Start 2P", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.5rem;
+      margin-left: 0.5rem;
+    }
+  }
+  hr {
+    color: #d6efd8;
+    margin: 0;
+  }
+}

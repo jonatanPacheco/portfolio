@@ -1,0 +1,35 @@
+.contatos-lista {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.contatos-link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000000;
+}
+.contatos-img {
+  width: 2rem;
+  align-self: center;
+}
+
+@media (width <= 768px) {
+  .contatos-link {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 428px) {
+  .contatos-lista {
+    justify-content: center;
+    padding: 0 2.2rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .contatos-link {
+    font-size: 0.7rem;
+  }
+}

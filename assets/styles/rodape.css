@@ -1,0 +1,29 @@
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  color: #ffffff;
+  .sobre-mim__logo {
+    color: #e5ba73;
+  }
+}
+.logo-alura {
+  width: 50px;
+  filter: drop-shadow(5px 5px 10px #ffffff);
+}
+.logo-alura__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (width <= 428px) {
+  .rodape {
+    font-size: 0.7rem;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,38 @@
+.projetos {
+  .projetos-lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style-type: none;
+  }
+  .projetos-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+  }
+  .projetos-img {
+    width: 2rem;
+    align-self: center;
+  }
+}
+
+@media (width <= 768px) {
+  .projetos-link {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 428px) {
+  .projetos-lista {
+    justify-content: center;
+    padding: 0 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .projetos-link {
+    font-size: 0.7rem;
+  }
+}

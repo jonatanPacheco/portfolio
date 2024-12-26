@@ -1,0 +1,36 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+.menu {
+  width: 30px;
+  display: none;
+}
+.links {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.links:hover {
+  background-color: #4ef037;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  padding: 0.7rem;
+  color: #000000;
+}
+
+@media (width <= 428px) {
+  .cabecalho {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .menu {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+.descricao {
+  background-image: url("../imagens/descricao-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  gap: 2rem;
+  padding: 13rem 4rem 5rem 4rem;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 8%;
+  margin: 0 2rem 2rem 2rem;
+  p {
+    padding: 0 9rem;
+    font-size: 1.5rem;
+    text-align: left;
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (width <= 768px) {
+  .descricao {
+    border-radius: 20px;
+    p {
+      padding: 0 2rem;
+    }
+  }
+}
+
+@media (width <= 428px) {
+  .descricao {
+    padding: 8rem 1rem 4rem 1rem;
+    margin: 0;
+    h2 {
+      margin: 0;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}

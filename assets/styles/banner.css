@@ -1,0 +1,32 @@
+.banner {
+  z-index: 1;
+  padding: 0 5rem;
+  text-align: center;
+  width: 30vw;
+  color: #ffffff;
+  object-fit: cover;
+  h2 {
+    margin-bottom: 3rem;
+  }
+  .banner-img {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    border-radius: 50%;
+    margin-bottom: -200px;
+  }
+}
+
+@media (width <= 768px) {
+  .banner img {
+    width: 40vw;
+  }
+}
+
+@media (width <= 428px) {
+  .banner img {
+    width: 50vw;
+    margin-bottom: -100px;
+  }
+}

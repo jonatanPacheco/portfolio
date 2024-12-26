@@ -1,0 +1,29 @@
+.sobre-mim__cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  a,
+  p {
+    color: black;
+  }
+}
+
+.sobre-mim__links {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sobre-mim__links:hover {
+  background-color: #e5ba73;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  padding: 0.7rem;
+  color: #000000;
+}
+
+@media (width <= 428px) {
+  .logo-container {
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+  a:hover {
+    background-color: #4ef037;
+    border: solid 1px transparent;
+    border-radius: 10px;
+    padding: 0.7rem;
+  }
+}
+
+@media (width <= 428px) {
+  .card {
+    margin: 0 auto;
+  }
+}
